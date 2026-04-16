@@ -417,7 +417,7 @@ def can_make_usdt_request(user_id):
 
 def main_kb():
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="💰 Балансик", callback_data="balance")],
+        [InlineKeyboardButton(text="💰 Баланс", callback_data="balance")],
         [InlineKeyboardButton(text="🔄 Обмен", callback_data="exchange")],
         [InlineKeyboardButton(text="💸 Вывести", callback_data="withdraw")],
         [InlineKeyboardButton(text="👥 Рефералы", callback_data="referrals")],
